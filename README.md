@@ -72,7 +72,6 @@ WeChatHook/
 **▶3,**配置程序中**wxhook**文件夹中中的**messageBox.json**文件（发送消息的对象、内容、时间）
 
 ```json
-//messageBox.json
 {
     "messages": [
         {
