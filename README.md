@@ -32,23 +32,7 @@
   
 
 ## 二、项目架构
-```mermaid
-graph TD
-    A[main.py<br>主程序入口<br>负责启动和管理整个程序] --> B[BotHandler<br>Bot处理器<br>管理微信实例和任务调度]
-    
-    B --> C[MessageHandler<br>消息处理器<br>处理消息发送和定时任务]
-    B --> D[ContactHandler<br>联系人处理器<br>管理联系人信息获取和存储]
-    B --> E[ThreadPoolManager<br>线程池管理器<br>管理并发任务执行]
-    C --> F[ScheduledTask<br>定时任务<br>处理消息定时发送功能]
-    B --> G[Core Bot<br>核心Bot模块<br>实现微信核心功能]
-    G --> H[API Interface<br>API接口<br>处理与微信的通信]
-    G --> I[Event Handler<br>事件处理器<br>处理各类微信事件]
-    E --> J[Thread Pool<br>线程池<br>处理异步任务]
-    E --> K[Process Pool<br>进程池<br>处理CPU密集任务]
-    classDef default fill:#f9f,stroke:#333,stroke-width:2px;
-```
-
-
+![项目结构图](structure.png)
 
 ## 三、项目树
 
@@ -128,7 +112,7 @@ python main.py -m
 
 **▶1,**程序首次运行会获取所有联系人信息到user_info文件夹中（若无则自动创建），为后续开发GUI界面进行铺垫
 
-**▶2,**运行程序前最好将本地时间进行一下对时，以防因为某些原因造成本地时间与网络时间https://time.is/Beijing有差异！！！也可以自行开发一个time_sync进行程序时间校准
+**▶2,**运行程序前最好将本地时间进行一下对时，以防因为某些原因造成本地时间与网络时间有差异！！！也可以自行开发一个time_sync进行程序时间校准
 
 **▶3,**目前程序只实现了联系人信息获取 and 批量自定义定时发送信息，后续会接着二次开发更多的功能。
 
