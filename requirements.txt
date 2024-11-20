@@ -1,0 +1,6 @@
+Requests==2.32.3
+colorama==0.4.6
+psutil==5.9.8
+setuptools==75.2.0
+tqdm==4.66.5
+urllib3==2.2.3

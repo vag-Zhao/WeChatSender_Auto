@@ -1,0 +1,30 @@
+{
+  "increase_remote_port": 19059,
+  "wechat": [
+    {
+      "pid": 16400,
+      "remote_port": 19001,
+      "server_port": 18999
+    },
+    {
+      "pid": 18708,
+      "remote_port": 19015,
+      "server_port": 18985
+    },
+    {
+      "pid": 3868,
+      "remote_port": 19028,
+      "server_port": 18972
+    },
+    {
+      "pid": 19796,
+      "remote_port": 19030,
+      "server_port": 18970
+    },
+    {
+      "pid": 7096,
+      "remote_port": 19059,
+      "server_port": 18941
+    }
+  ]
+}
