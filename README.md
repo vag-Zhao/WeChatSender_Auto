@@ -8,6 +8,7 @@
 
 本项目采用 MIT 许可证。查看 [LICENSE](LICENSE) 文件了解更多详细信息。 MIT © [**WeChatMessageSender_Auto** ]
 
+
 ## 项目简介
 
 ​	**WeChatMessageSender_Auto**是一个基于 Python 的微信自动化工具，支持消息定时发送、联系人管理、自动回复等功能。该项目通过注入方式实现微信功能的自动化操作，提供了稳定可靠的接口和灵活的配置选项。
@@ -33,6 +34,7 @@
 
 ## 二、项目架构
 ![项目结构图](png.png)
+
 
 ## 三、项目树
 
